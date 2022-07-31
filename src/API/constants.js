@@ -1,1 +1,1 @@
-export const baseUrl = "https://dqflex-api.herokuapp.com";
+export const baseUrl = "YOUR-API-URL";

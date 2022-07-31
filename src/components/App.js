@@ -11,7 +11,6 @@ const App = () => {
   const [myRating, setMyRating] = useState([]);
 
   const addRating = (rating) => {
-    console.log("before;;", myRating);
     myRating.push(rating);
     setMyRating(myRating);
     const user_based_param = myRating.join("&params=");
