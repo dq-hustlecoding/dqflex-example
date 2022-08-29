@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# 풇스택 추천 서비스 (가제)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 부제: FastAPI 부터 GitHub Action 까지 한 권에 익히는 개발 사이클 (가제)
+- 저자: 최규민
+- 출간/배본가능일: 미정
+- 정가: 미정
+- 페이지: 미정
 
-## Available Scripts
+## 이 리포지토리에 관하여
 
-In the project directory, you can run:
+Chapter 8 에 해당하는 프론트엔드 영역의 리포지토리입니다.
+다운받은 후 책의 설명을 따라해보세요.
 
-### `yarn start`
+## 구매 링크
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 목차
 
-### `yarn test`
+Chapter 0 전체 프로젝트 구조
+Chapter 1 python 프로젝트 개발환경 설정
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Chapter 2 데이터 전처리하기
 
-### `yarn build`
+Chapter 3 백엔드 목록 조회하기
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Chapter 4 추천 목록 조회하기
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Chapter 5 AWS 서버 환경 만들기 - EC2
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Chapter 6 EC2 서버에 배포하기
 
-### `yarn eject`
+Chapter 7 도메인 및 https 보안 설정하기
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Chapter 8 React로 프론트엔드 개발하기
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Chapter 9 스타트업에서 개발자로 살아남기
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+부록 1. 무료로 API 서버를 배포하는 방법
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+부록 2. 무료로 프론트엔드를 배포하는 방법
 
-## Learn More
+## 참고자료
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+유저의 레파지토리를 불러오는 깃허브 api
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- https://api.github.com/users/${username}/repos?sort=updated&page=1&per_page=10
 
-### Code Splitting
+구글 폰트 다운링크
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- https://fonts.google.com/specimen/Noto+Sans+KR
 
-### Analyzing the Bundle Size
+투두리스트의 아이콘 Figma 링크
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- https://www.figma.com/file/DG0lfZ1an3xM0AcssQsXJZ/Untitled?node-id=0%3A1
 
-### Making a Progressive Web App
+피그마로 만든 숙소공유 애플리케이션에 대한 디자인
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- https://drive.google.com/drive/folders/1E7DPyeVHCQSTq1jdWg7NA58MA9jzGYVv
 
-### Advanced Configuration
+## 오탈자 제보 및 문의 사항
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 깃허브 리파지토리 [issue 생성](https://github.com/bjpublic/next.js/issues/new)
